@@ -10,10 +10,10 @@ exports = require('ose')
  */
 
 /**
- * @caption OSE yoctopuce content
+ * @caption Yoctopuce content
  *
  * @readme
- * Provides files of OSE yoctopuce package to the browser.
+ * Provides files of [ose-yoctopuce] package to the browser.
  *
  * @class yoctopuce.content
  * @type singleton

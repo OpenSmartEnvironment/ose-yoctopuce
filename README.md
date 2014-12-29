@@ -1,7 +1,12 @@
-# Open Smart Environment Yoctopuce package
+# Open Smart Environment - Yoctopuce
+This package is a part of OSE suite.
+The main advantage of OSE is the easy creation of applications
+consisting of multiple instances working as a single whole. The
+objective is to develop an all-encompassing personal mesh running
+various devices including HTPCs, phones, tablets, workstations,
+servers, Raspberry Pis, home automation gadgets, wearables, drones etc.
 
-This package integrates some Yoctopuce sensor into
-the OSE ecosystem.
+For more information about OSE see **the [documentation](http://opensmartenvironment.github.io/doc/)**.
 
 ## Status
 - Pre-alpha stage (insecure and buggy)
@@ -15,44 +20,22 @@ to understand the basic principles covered by the
 
 Use of this software is currently recommended only for users that
 wish participate in the development process, see
-[Contributions](#contributions).
+[contributions](http://opensmartenvironment.github.io/doc/#contrib).
 
-## Getting started
-To get started with OSE, refer to the [ose-bundle](http://opensmartenvironment.github.io/doc/modules/bundle.html) package and
-[Media player example application](http://opensmartenvironment.github.io/doc/modules/bundle.media.html). You can read the entire OSE
-documentation [here]( http://opensmartenvironment.github.io/doc).
+## Platforms
+OSE is developed in JavaScript on the following platforms.
+- Node.js (>0.10) running on Debian Jessie and Raspbian
+- recent versions of Firefox
+- recent versions of Chromium/Chrome
 
-## Modules
-Open Smart Environment Yoctopuce package consists of the following modules:
-- Yoctopuce meteo kind
-- OSE yoctopuce core
-- OSE yoctopuce content
+It, however, probably also runs on other recent browsers and Linux
+distributions.
 
-### Yoctopuce meteo kind
-[Entry kind](http://opensmartenvironment.github.io/doc/classes/ose.lib.kind.html) representing Yoctopuce meteo sensors.
+## Package description
+This package integrates some Yoctopuce sensor into
+the OSE ecosystem.
 
-Module [Yoctopuce meteo kind](http://opensmartenvironment.github.io/doc/classes/yoctopuce.lib.meteo.html) reference ... 
-
-### OSE yoctopuce core
-Core singleton of ose-yoctopuce npm package. Registers [entry kinds](http://opensmartenvironment.github.io/doc/classes/ose.lib.kind.html)
-defined by this package to the `"control"` [scope](http://opensmartenvironment.github.io/doc/classes/ose.lib.scope.html).
-
-Module [OSE yoctopuce core](http://opensmartenvironment.github.io/doc/classes/yoctopuce.lib.html) reference ... 
-
-### OSE yoctopuce content
-Provides files of OSE yoctopuce package to the browser.
-
-Module [OSE yoctopuce content](http://opensmartenvironment.github.io/doc/classes/yoctopuce.content.html) reference ... 
-
-## <a name="contributions"></a>Contributions
-To get started contributing or coding, it is good to read about the
-two main npm packages [ose](http://opensmartenvironment.github.io/doc/modules/ose.html) and [ose-bb](http://opensmartenvironment.github.io/doc/modules/bb.html).
-
-This software is in the pre-alpha stage. At the moment, it is
-premature to file bugs. Input is, however, much welcome in the form
-of ideas, comments and general suggestions.  Feel free to contact
-us via
-[github.com/opensmartenvironment](https://github.com/opensmartenvironment).
+The documentation for "ose-yoctopuce" package can be found **[here](http://opensmartenvironment.github.io/doc/#ose-yoctopuce#)**.
 
 ## Licence
 This software is released under the terms of the [GNU General
