@@ -1,6 +1,5 @@
 {
   "name": "ose-yoctopuce",
-  "preferGlobal": true,
   "version": "0.1.3",
   "author": "Jan Snasel <snaselj@gmail.com>",
   "description": "Open Smart Environment Yoctopuce package",
