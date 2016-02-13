@@ -20,7 +20,7 @@
   },
   "keywords": [],
   "dependencies": {
-    "yoctolib": "^1.10.18640"
+    "yoctolib": "^1.10.22835"
   },
   "license": "GPL-3.0+"
 }
